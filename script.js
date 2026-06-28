@@ -99,22 +99,6 @@ visitor@abdulatif:~$</pre>
       <div class="card">Now playing: <strong>Midnight Drift</strong></div>
     </div>
   `,
-  devlogs: `
-    <div class="notes-list">
-      <div class="note-item">
-        <strong>2026-06-24</strong>
-        <div>Started the web OS layout and built the desktop top bar.</div>
-      </div>
-      <div class="note-item">
-        <strong>2026-06-25</strong>
-        <div>Added draggable windows, app icons, and an interactive terminal.</div>
-      </div>
-      <div class="note-item">
-        <strong>2026-06-26</strong>
-        <div>Implemented a custom theme switcher and refined the UI details.</div>
-      </div>
-    </div>
-  `,
   settings: `
     <div class="settings-grid">
       <div class="card">
