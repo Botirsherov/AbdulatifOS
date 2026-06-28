@@ -82,10 +82,22 @@ visitor@abdulatif:~$</pre>
   `,
   gallery: `
     <div class="gallery-grid">
-      <div class="gallery-card">Neon Night</div>
-      <div class="gallery-card">Pixel Sunset</div>
-      <div class="gallery-card">Ocean Code</div>
-      <div class="gallery-card">Studio Flow</div>
+      <div class="gallery-card">
+        <img src="https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=800&q=80" alt="Neon Night city lights" />
+        <div class="gallery-caption">Neon Night</div>
+      </div>
+      <div class="gallery-card">
+        <img src="https://images.unsplash.com/photo-1515879218367-8466d910aaa4?auto=format&fit=crop&w=800&q=80" alt="Sunset workspace" />
+        <div class="gallery-caption">Pixel Sunset</div>
+      </div>
+      <div class="gallery-card">
+        <img src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=800&q=80" alt="Ocean code desk" />
+        <div class="gallery-caption">Ocean Code</div>
+      </div>
+      <div class="gallery-card">
+        <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=800&q=80" alt="Creative studio mood" />
+        <div class="gallery-caption">Studio Flow</div>
+      </div>
     </div>
   `,
   music: `
