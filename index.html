@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AbdulatifOS</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="boot-screen" id="bootScreen">
+      <div class="boot-card">
+        <h1>AbdulatifOS</h1>
+        <p>Booting your personal web operating system...</p>
+        <button class="boot-btn" id="bootBtn">Enter desktop</button>
+      </div>
+    </div>
+
+    <div class="desktop" id="desktop">
+      <div class="topbar">
+        <div class="left">
+          <div class="chip">⚡ AbdulatifOS</div>
+          <div class="chip">Projects • Music • Ideas</div>
+        </div>
+        <div class="right">
+          <div class="chip" id="dateLabel">Loading date</div>
+          <div class="chip clock" id="clockLabel">00:00</div>
+        </div>
+      </div>
+
+      <div class="desktop-icons" id="desktopIcons">
+        <div class="app-icon" data-app="about">
+          <div class="glyph">🧑</div>
+          <span>About</span>
+        </div>
+        <div class="app-icon" data-app="projects">
+          <div class="glyph">📁</div>
+          <span>Projects</span>
+        </div>
+        <div class="app-icon" data-app="notes">
+          <div class="glyph">📝</div>
+          <span>Notes</span>
+        </div>
+        <div class="app-icon" data-app="terminal">
+          <div class="glyph">⌨️</div>
+          <span>Terminal</span>
+        </div>
+        <div class="app-icon" data-app="gallery">
+          <div class="glyph">🖼️</div>
+          <span>Gallery</span>
+        </div>
+        <div class="app-icon" data-app="music">
+          <div class="glyph">🎵</div>
+          <span>Music</span>
+        </div>
+        <div class="app-icon" data-app="devlogs">
+          <div class="glyph">📔</div>
+          <span>Devlogs</span>
+        </div>
+        <div class="app-icon" data-app="settings">
+          <div class="glyph">⚙️</div>
+          <span>Settings</span>
+        </div>
+      </div>
+
+      <div class="dock" id="dock">
+        <div class="app-icon" data-app="about"><div class="glyph">🧑</div></div>
+        <div class="app-icon" data-app="projects">
+          <div class="glyph">📁</div>
+        </div>
+        <div class="app-icon" data-app="devlogs">
+          <div class="glyph">📔</div>
+        </div>
+        <div class="app-icon" data-app="terminal">
+          <div class="glyph">⌨️</div>
+        </div>
+      </div>
+
+      <div class="window-layer" id="windowLayer"></div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
